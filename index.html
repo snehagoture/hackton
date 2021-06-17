@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Search</title>
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css" />
+</head>
+<body>
+<div class="container">
+    <h1 style="text-align: center;">
+        <br><br>
+    Github Search User App</h1>
+    <form id="myform" autocomplete="off">
+        <div class="form-group" >
+        <input type="text"  id="search" class="form-control" placeholder="Search username" required>
+        </div>
+<div class="form-group">
+    <button class="btn btn-danger btn-block">
+        Search User
+    </button>
+</div>    
+    
+    </form>
+    <div id="result"></div>
+    <div class="container">
+            
+        <div id="searchWrapper">
+            <input
+                type="text"
+                name="searchBar"
+                id="searchBar"
+                placeholder="Find a Repositary..."
+            />
+        </div>
+        <ul id="charactersList"></ul>
+      </div>
+      </div>
+      
+      
+
+</div>
+</body>
+<script src="rep.js"></script>
+</html>
